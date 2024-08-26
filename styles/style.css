@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "inter-variablefont";
+    src: url(../assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "inter-variablefont";
+}
+
+:root {
+    --green: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+}
+
+body {
+    background-color: var(--grey-900);
+    color: var(--white);
+    height: 88vh;
+    text-align: center;
+}
+
+main {
+    background-color: var(--grey-800);
+    height: auto;
+    border-radius: 10px;
+    max-width: 375px;
+    padding: 30px;
+    padding-bottom: 40px;
+    margin: 4% auto;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    width: 25%;
+}
+
+h3 {
+    color: var(--green);
+    margin-bottom: 30px;
+}
+
+div.button {
+    background-color: var(--grey-700);
+    border-radius: inherit;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.attribution { 
+    margin-top: -20px;
+    font-size: 1em; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: rgb(120, 120, 251);
+}
