@@ -56,6 +56,13 @@ div.button {
     margin-top: 15px;
 }
 
+div.button:hover {
+    background-color: var(--green);
+    cursor: pointer;
+    color: var(--grey-900);
+    font-weight: bold;
+}
+
 .attribution { 
     margin-top: -20px;
     font-size: 1em; 
